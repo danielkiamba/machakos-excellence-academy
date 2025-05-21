@@ -93,7 +93,7 @@ const Home = () => {
             {/* Featured Image */}
             <div className="relative h-96 rounded-xl overflow-hidden shadow-lg">
               <img
-                src="https://pixabay.com/get/gb52de48496e42e9f7f780ec51e4abe94d649aa93e80331e7a551acf32601a494ce3a7ea332eed56b9ff581aaa7a0157ac7b748535f67b46f18fc15e5d62b01fd_1280.jpg"
+                src="https://www.intvetvaccnet.co.uk/sites/ivvn/files/styles/slide-front-normal/public/content/slide/images/2021-09-21/IMG_20210612_170801.jpg?itok=iJqZnnGR&timestamp=1632229737"
                 alt="Students in science laboratory"
                 className="w-full h-full object-cover"
               />
