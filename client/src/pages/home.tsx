@@ -150,12 +150,12 @@ const Home = () => {
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link href="/contact">
-              <a className="bg-white hover:bg-gray-100 text-primary font-bold py-3 px-8 rounded-md transition duration-300">
+              <a className="bg-white hover:bg-gray-100 text-primary font-bold py-3 px-8 rounded-md transition duration-300 inline-block">
                 Apply Now
               </a>
             </Link>
             <Link href="/contact">
-              <a className="bg-secondary hover:bg-yellow-500 text-white font-bold py-3 px-8 rounded-md transition duration-300">
+              <a className="bg-fuchsia-300 hover:bg-yellow-500 text-white font-bold py-3 px-8 rounded-md transition duration-300 inline-block">
                 Contact Us
               </a>
             </Link>

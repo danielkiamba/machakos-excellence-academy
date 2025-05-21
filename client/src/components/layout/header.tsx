@@ -39,9 +39,9 @@ const Header = () => {
               <a
                 className={`${
                   isActive("/")
-                    ? "text-secondary"
-                    : "text-neutral-900 hover:text-secondary"
-                } font-medium`}
+                    ? "text-secondary bg-amber-300"
+                    : "text-neutral-900 hover:text-secondary hover:bg-gray-100"
+                } font-medium px-4 py-2 rounded-md`}
               >
                 Home
               </a>
@@ -50,7 +50,7 @@ const Header = () => {
             {/* About Dropdown */}
             <DropdownMenu>
               <DropdownMenuTrigger
-                className="text-neutral-900 hover:text-secondary font-medium flex items-center"
+                className="text-neutral-900 hover:text-amber-400 font-medium flex items-center"
                 asChild
               >
                 <Button variant="link" className="p-0 h-auto font-medium">
@@ -84,7 +84,7 @@ const Header = () => {
             {/* Academics Dropdown */}
             <DropdownMenu>
               <DropdownMenuTrigger
-                className="text-neutral-900 hover:text-secondary font-medium flex items-center"
+                className="text-neutral-900 hover:text-amber-400 font-medium flex items-center"
                 asChild
               >
                 <Button variant="link" className="p-0 h-auto font-medium">
@@ -115,7 +115,7 @@ const Header = () => {
                 className={`${
                   isActive("/fees")
                     ? "text-secondary"
-                    : "text-neutral-900 hover:text-secondary"
+                    : "text-neutral-900 hover:text-amber-400"
                 } font-medium`}
               >
                 Fees
@@ -127,7 +127,7 @@ const Header = () => {
                 className={`${
                   isActive("/gallery")
                     ? "text-secondary"
-                    : "text-neutral-900 hover:text-secondary"
+                    : "text-neutral-900 hover:text-amber-400"
                 } font-medium`}
               >
                 Gallery
@@ -139,7 +139,7 @@ const Header = () => {
                 className={`${
                   isActive("/contact")
                     ? "text-secondary"
-                    : "text-neutral-900 hover:text-secondary"
+                    : "text-neutral-900 hover:text-amber-400"
                 } font-medium`}
               >
                 Contact
@@ -149,7 +149,7 @@ const Header = () => {
 
           {/* Apply Button */}
           <Link href="/contact">
-            <a className="hidden md:block bg-secondary hover:bg-yellow-500 text-white font-medium px-6 py-2 rounded-md transition duration-300">
+            <a className="hidden md:block bg-cyan-300 hover:bg-yellow-500 text-white font-medium px-6 py-2 rounded-md transition duration-300">
               Apply Now
             </a>
           </Link>

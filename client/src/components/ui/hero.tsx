@@ -34,12 +34,12 @@ const Hero = ({
             <p className="text-xl md:text-2xl mb-8 font-light">{subtitle}</p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href={primaryButtonLink}>
-                <a className="bg-secondary hover:bg-yellow-500 text-white font-bold py-3 px-6 rounded-md text-center transition duration-300">
+                <a className="bg-emerald-600 hover:bg-yellow-500 text-white font-bold py-3 px-6 rounded-md text-center transition duration-300 inline-block sm:mb-4 md:mb-6">
                   {primaryButtonText}
                 </a>
               </Link>
               <Link href={secondaryButtonLink}>
-                <a className="bg-white hover:bg-gray-100 text-primary font-bold py-3 px-6 rounded-md text-center transition duration-300">
+                <a className="bg-white hover:bg-gray-100 text-primary font-bold py-3 px-6 rounded-md text-center transition duration-300 inline-block">
                   {secondaryButtonText}
                 </a>
               </Link>
